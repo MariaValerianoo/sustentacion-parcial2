@@ -100,12 +100,7 @@ void ordenadoAñoPlataforma(){
 void VideojuegosPorCategoria() {
     for (const string& categoria : categorias) {
         cout << "Videojuegos de la categoría  " << categoria << ":" << endl;
-        for (const auto& juego : videojuegos) {
-            if (juego.categoria == categoria) {
-                cout << "- " << juego.titulo << ", Categoría: " << juego.categoria << ", Desarrollador: " << juego.desarrollador << ", Año: " << juego.anio << ", Plataforma: " << juego.plataforma << endl;
-            }
-        }
-        cout << endl;
+        
     }
 }
 void listaFav(){
